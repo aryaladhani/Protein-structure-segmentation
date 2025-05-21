@@ -3,6 +3,7 @@ def average_sequence_length(data):
     sum =0
     for i in range(len(data)):
         sum += len(data[i][1])
+    print("This is a part of the branch repository")
     return (sum//len(data))
 
 def add_amino_acids(protein, avg):
